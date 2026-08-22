@@ -1,5 +1,12 @@
-.env
-__pycache__/
-.dbt/
-node_modules/
+# IDE & Editor files
 .vscode/
+.idea/
+*.swp
+
+# Python Environment
+venv/
+__pycache__/
+*.pyc
+
+# Environment & Credentials
+.env
