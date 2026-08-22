@@ -11,7 +11,7 @@ services:
       POSTGRES_PASSWORD: oltp_password
       POSTGRES_DB: saas_oltp
     ports:
-      - "5432:5432"
+      - "5431:5432"
     volumes:
       - oltp_data:/var/lib/postgresql/data
 
