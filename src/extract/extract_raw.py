@@ -20,7 +20,7 @@ PG_CONFIG = {
 MONGO_URI = "mongodb://mongo_user:mongo_password@127.0.0.1:27017/admin?authSource=admin"
 
 def extract_postgres_tables():
-    """Extracts raw tables from PostgreSQL OLTP and dumps to JSON staging files."""
+    # Extracts raw tables from PostgreSQL OLTP and dumps to JSON staging files.
     print("1. Extracting PostgreSQL relational tables...")
     conn = psycopg2.connect(**PG_CONFIG)
     cursor = conn.cursor(cursor_factory=RealDictCursor)
@@ -38,13 +38,13 @@ def extract_postgres_tables():
             # default=str handles Decimal, datetime, and date automatically
             json.dump(records, f, indent=2, default=str)
             
-        print(f"   ✓ Extracted {len(records)} records from Postgres '{table}' -> {output_file}")
+        print(f" Extracted {len(records)} records from Postgres '{table}' -> {output_file}")
 
     cursor.close()
     conn.close()
 
 def extract_mongo_collections():
-    """Extracts raw collections from MongoDB Telemetry and dumps to JSON staging files."""
+    # Extracts raw collections from MongoDB Telemetry and dumps to JSON staging files.
     print("2. Extracting MongoDB NoSQL telemetry collections...")
     client = MongoClient(MONGO_URI)
     db = client["saas_telemetry"]
@@ -57,14 +57,14 @@ def extract_mongo_collections():
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(records, f, indent=2, default=str)
 
-    print(f"   ✓ Extracted {len(records)} documents from Mongo 'clickstream_events' -> {output_file}")
+    print(f" Extracted {len(records)} documents from Mongo 'clickstream_events' -> {output_file}")
     client.close()
 
 def run_extraction():
-    print("Starting Day 4 Raw Extraction Pipeline...")
+    print("Raw Extraction Pipeline...")
     extract_postgres_tables()
     extract_mongo_collections()
-    print("✓ Extraction pipeline complete! All raw landing files generated in data/raw/\n")
+    print("Extraction pipeline complete! All raw landing files generated in data/raw/\n")
 
 if __name__ == "__main__":
     run_extraction()
