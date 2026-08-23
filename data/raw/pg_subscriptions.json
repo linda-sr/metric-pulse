@@ -1,0 +1,2502 @@
+[
+  {
+    "subscription_id": "sub_20ea3a5fd3",
+    "user_id": "usr_241cb5f5a6",
+    "plan_id": "plan_enterprise",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-04-27 17:51:30+00:00",
+    "end_date": "2026-08-05 17:51:30+00:00",
+    "updated_at": "2026-08-05 17:51:30+00:00"
+  },
+  {
+    "subscription_id": "sub_94bbb84209",
+    "user_id": "usr_8b1c18faef",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-06-06 01:29:32+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-03 01:29:32+00:00"
+  },
+  {
+    "subscription_id": "sub_92841535c9",
+    "user_id": "usr_298819bf9a",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-09-01 17:18:06+00:00",
+    "end_date": null,
+    "updated_at": "2025-09-01 17:18:06+00:00"
+  },
+  {
+    "subscription_id": "sub_bd885aee65",
+    "user_id": "usr_ed4a00d629",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-07-02 18:24:26+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-02 18:24:26+00:00"
+  },
+  {
+    "subscription_id": "sub_b735fac9d6",
+    "user_id": "usr_264e219795",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-06-14 22:14:58+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-14 22:14:58+00:00"
+  },
+  {
+    "subscription_id": "sub_6dfa345760",
+    "user_id": "usr_48dd13e935",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-06-01 19:33:42+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-01 19:33:42+00:00"
+  },
+  {
+    "subscription_id": "sub_004a11bc64",
+    "user_id": "usr_7332b0de69",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-01-09 20:39:04+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-09 20:39:04+00:00"
+  },
+  {
+    "subscription_id": "sub_fbb4033c64",
+    "user_id": "usr_04aa960e52",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-07-24 22:10:54+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-24 22:10:54+00:00"
+  },
+  {
+    "subscription_id": "sub_f05366fc58",
+    "user_id": "usr_9be7d1d89d",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-05-09 16:27:14+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-09 16:27:14+00:00"
+  },
+  {
+    "subscription_id": "sub_10c71a1772",
+    "user_id": "usr_8cba07b29d",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-10-24 20:59:24+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-24 20:59:24+00:00"
+  },
+  {
+    "subscription_id": "sub_e7726b87d1",
+    "user_id": "usr_1212e48633",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-09-13 03:20:53+00:00",
+    "end_date": null,
+    "updated_at": "2025-09-13 03:20:53+00:00"
+  },
+  {
+    "subscription_id": "sub_f23e1dc71e",
+    "user_id": "usr_b047001c0e",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-03-30 16:28:11+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-30 16:28:11+00:00"
+  },
+  {
+    "subscription_id": "sub_2d7ae7e618",
+    "user_id": "usr_67f36e1808",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-06-07 17:46:09+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-18 17:46:09+00:00"
+  },
+  {
+    "subscription_id": "sub_26716a4d7e",
+    "user_id": "usr_9e55c10405",
+    "plan_id": "plan_pro",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-03-08 07:05:52+00:00",
+    "end_date": "2026-07-13 07:05:52+00:00",
+    "updated_at": "2026-07-13 07:05:52+00:00"
+  },
+  {
+    "subscription_id": "sub_7907d5122f",
+    "user_id": "usr_ddeecacf82",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-02-02 08:47:04+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-02 08:47:04+00:00"
+  },
+  {
+    "subscription_id": "sub_0e458c605e",
+    "user_id": "usr_b83758832c",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-05-13 14:40:10+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-13 14:40:10+00:00"
+  },
+  {
+    "subscription_id": "sub_f7e57370a6",
+    "user_id": "usr_e85d2d3284",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-08-23 16:13:01+00:00",
+    "end_date": null,
+    "updated_at": "2025-08-23 16:13:01+00:00"
+  },
+  {
+    "subscription_id": "sub_5f7d82e16a",
+    "user_id": "usr_3e6c841b51",
+    "plan_id": "plan_enterprise",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-10-20 18:32:01+00:00",
+    "end_date": "2026-02-23 18:32:01+00:00",
+    "updated_at": "2026-02-23 18:32:01+00:00"
+  },
+  {
+    "subscription_id": "sub_988e9c7d2b",
+    "user_id": "usr_62aa6c1aa4",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-07-29 16:15:00+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-29 16:15:00+00:00"
+  },
+  {
+    "subscription_id": "sub_925fe20753",
+    "user_id": "usr_a01de7ba1f",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-06-13 19:17:40+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-13 19:17:40+00:00"
+  },
+  {
+    "subscription_id": "sub_352716d71d",
+    "user_id": "usr_fdcb75b03a",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-02-02 17:54:00+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-02 17:54:00+00:00"
+  },
+  {
+    "subscription_id": "sub_6038854c3e",
+    "user_id": "usr_e232d434b3",
+    "plan_id": "plan_enterprise",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-05-10 06:32:41+00:00",
+    "end_date": "2026-08-06 06:32:41+00:00",
+    "updated_at": "2026-08-06 06:32:41+00:00"
+  },
+  {
+    "subscription_id": "sub_4cdfecc225",
+    "user_id": "usr_a641a69afc",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-08-30 14:01:19+00:00",
+    "end_date": null,
+    "updated_at": "2025-08-30 14:01:19+00:00"
+  },
+  {
+    "subscription_id": "sub_cf4863d05e",
+    "user_id": "usr_db527f6753",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-12-28 17:47:07+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-28 17:47:07+00:00"
+  },
+  {
+    "subscription_id": "sub_c93a926d11",
+    "user_id": "usr_96c00a59c1",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-08-20 17:35:35+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-20 17:35:35+00:00"
+  },
+  {
+    "subscription_id": "sub_4b0b626410",
+    "user_id": "usr_89c367551e",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-02-05 19:39:24+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-05 19:39:24+00:00"
+  },
+  {
+    "subscription_id": "sub_bc2aee39cc",
+    "user_id": "usr_ec1cbe75c2",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-01-01 04:29:53+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-01 04:29:53+00:00"
+  },
+  {
+    "subscription_id": "sub_cf8e704695",
+    "user_id": "usr_26c41e37e7",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-02-18 01:58:29+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-18 01:58:29+00:00"
+  },
+  {
+    "subscription_id": "sub_0e0dfb49f0",
+    "user_id": "usr_8d9ce460cd",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-07-13 02:18:37+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-13 02:18:37+00:00"
+  },
+  {
+    "subscription_id": "sub_c01aded208",
+    "user_id": "usr_8110cb7af0",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-11-13 10:14:16+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-13 10:14:16+00:00"
+  },
+  {
+    "subscription_id": "sub_8e6d264692",
+    "user_id": "usr_9a810cda18",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-08-17 05:44:34+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-17 05:44:34+00:00"
+  },
+  {
+    "subscription_id": "sub_19066a0873",
+    "user_id": "usr_3f91678725",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-11-14 23:05:16+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-14 23:05:16+00:00"
+  },
+  {
+    "subscription_id": "sub_9b6b9df330",
+    "user_id": "usr_c81957d75f",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-03-05 16:52:25+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-05 16:52:25+00:00"
+  },
+  {
+    "subscription_id": "sub_3acb35eeb7",
+    "user_id": "usr_1e4649137e",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-07-23 02:42:20+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-23 02:42:20+00:00"
+  },
+  {
+    "subscription_id": "sub_9715af7215",
+    "user_id": "usr_7ea808ff79",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-04-19 23:01:21+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-07 23:01:21+00:00"
+  },
+  {
+    "subscription_id": "sub_bcdca3fc9b",
+    "user_id": "usr_9799f32795",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-05-27 13:21:36+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-27 13:21:36+00:00"
+  },
+  {
+    "subscription_id": "sub_5822e07233",
+    "user_id": "usr_c38480eda8",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-09-19 14:07:10+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-14 14:07:10+00:00"
+  },
+  {
+    "subscription_id": "sub_b2cc0a6c20",
+    "user_id": "usr_b4f382e87b",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-12-03 09:48:56+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-21 09:48:56+00:00"
+  },
+  {
+    "subscription_id": "sub_c9c1cd8f33",
+    "user_id": "usr_d069e0b128",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-03-21 09:07:37+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-21 09:07:37+00:00"
+  },
+  {
+    "subscription_id": "sub_ecff46dad6",
+    "user_id": "usr_a7ecba393c",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-10-13 13:39:09+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-13 13:39:09+00:00"
+  },
+  {
+    "subscription_id": "sub_c7a59225db",
+    "user_id": "usr_37f435d276",
+    "plan_id": "plan_pro",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-01-02 13:50:40+00:00",
+    "end_date": "2026-06-24 13:50:40+00:00",
+    "updated_at": "2026-06-24 13:50:40+00:00"
+  },
+  {
+    "subscription_id": "sub_a6ba743088",
+    "user_id": "usr_c61d58fd92",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-09-11 03:26:55+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-08 03:26:55+00:00"
+  },
+  {
+    "subscription_id": "sub_f20d00f2ca",
+    "user_id": "usr_118cde1bc7",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-04-26 20:17:44+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-26 20:17:44+00:00"
+  },
+  {
+    "subscription_id": "sub_82b18132f7",
+    "user_id": "usr_202bc2788b",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-07-31 09:07:00+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-31 09:07:00+00:00"
+  },
+  {
+    "subscription_id": "sub_4ec00662b7",
+    "user_id": "usr_e3ff6b631b",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-08-06 13:05:00+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-06 13:05:00+00:00"
+  },
+  {
+    "subscription_id": "sub_6397ea6fa8",
+    "user_id": "usr_feb1abe27f",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-01-27 05:40:49+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-27 05:40:49+00:00"
+  },
+  {
+    "subscription_id": "sub_4939992f31",
+    "user_id": "usr_cf8c823644",
+    "plan_id": "plan_starter",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-10-31 01:43:52+00:00",
+    "end_date": "2026-01-09 01:43:52+00:00",
+    "updated_at": "2026-01-09 01:43:52+00:00"
+  },
+  {
+    "subscription_id": "sub_78db604c8a",
+    "user_id": "usr_d0419926dd",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-01-17 23:30:57+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-17 23:30:57+00:00"
+  },
+  {
+    "subscription_id": "sub_c3c5d3fc72",
+    "user_id": "usr_3ea685182c",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-11-18 19:18:44+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-18 19:18:44+00:00"
+  },
+  {
+    "subscription_id": "sub_51c06afaba",
+    "user_id": "usr_51b0314d31",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-12-08 19:36:07+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-08 19:36:07+00:00"
+  },
+  {
+    "subscription_id": "sub_cd000cc46e",
+    "user_id": "usr_218dd27b55",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-10-30 18:20:28+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-22 18:20:28+00:00"
+  },
+  {
+    "subscription_id": "sub_128bf7467e",
+    "user_id": "usr_c9d12186a7",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-10-06 07:51:55+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-06 07:51:55+00:00"
+  },
+  {
+    "subscription_id": "sub_045003fcb4",
+    "user_id": "usr_6853898ff3",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-03-12 07:58:38+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-12 07:58:38+00:00"
+  },
+  {
+    "subscription_id": "sub_a6f16d567f",
+    "user_id": "usr_3c8e022125",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-10-09 19:33:38+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-09 19:33:38+00:00"
+  },
+  {
+    "subscription_id": "sub_7f732e8e1e",
+    "user_id": "usr_63da6f14b5",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-01-16 15:51:31+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-08 15:51:31+00:00"
+  },
+  {
+    "subscription_id": "sub_c6c11fd269",
+    "user_id": "usr_9bdcf8907b",
+    "plan_id": "plan_pro",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-02-05 08:48:59+00:00",
+    "end_date": "2026-03-07 08:48:59+00:00",
+    "updated_at": "2026-03-07 08:48:59+00:00"
+  },
+  {
+    "subscription_id": "sub_3ec55e8571",
+    "user_id": "usr_39a349f06c",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-06-04 05:37:35+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-04 05:37:35+00:00"
+  },
+  {
+    "subscription_id": "sub_5a9b33f94b",
+    "user_id": "usr_d3c93a00f8",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-11-21 15:06:09+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-21 15:06:09+00:00"
+  },
+  {
+    "subscription_id": "sub_078fa1e14e",
+    "user_id": "usr_683055f386",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-04-16 19:27:17+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-16 19:27:17+00:00"
+  },
+  {
+    "subscription_id": "sub_dfbdba6129",
+    "user_id": "usr_2ebf90d9d2",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-03-02 09:53:52+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-02 09:53:52+00:00"
+  },
+  {
+    "subscription_id": "sub_037db95d8e",
+    "user_id": "usr_2996d82086",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-06-20 17:22:21+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-20 17:22:21+00:00"
+  },
+  {
+    "subscription_id": "sub_ad536e64de",
+    "user_id": "usr_1659378ba6",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-10-08 13:06:45+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-08 13:06:45+00:00"
+  },
+  {
+    "subscription_id": "sub_6fe143119a",
+    "user_id": "usr_9b0eed775f",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-08-03 14:39:37+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-03 14:39:37+00:00"
+  },
+  {
+    "subscription_id": "sub_1811629481",
+    "user_id": "usr_80adb46685",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-08-05 20:33:15+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-05 20:33:15+00:00"
+  },
+  {
+    "subscription_id": "sub_d3eb85da8c",
+    "user_id": "usr_40f180bb3b",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-06-15 19:52:10+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-15 19:52:10+00:00"
+  },
+  {
+    "subscription_id": "sub_a2d9c12f0b",
+    "user_id": "usr_3d8c583c6f",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-12-05 22:32:13+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-21 22:32:13+00:00"
+  },
+  {
+    "subscription_id": "sub_4783404cab",
+    "user_id": "usr_13e4579504",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-10-20 18:13:00+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-20 18:13:00+00:00"
+  },
+  {
+    "subscription_id": "sub_6c9d93fcf8",
+    "user_id": "usr_a40bbce693",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-02-01 13:59:24+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-17 13:59:24+00:00"
+  },
+  {
+    "subscription_id": "sub_e5de1a73d1",
+    "user_id": "usr_506480b17c",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-01-17 03:22:36+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-17 03:22:36+00:00"
+  },
+  {
+    "subscription_id": "sub_5dbf8db278",
+    "user_id": "usr_5ed5eba2c4",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-02-01 03:31:48+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-01 03:31:48+00:00"
+  },
+  {
+    "subscription_id": "sub_6ee9adb398",
+    "user_id": "usr_8baea86e62",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-05-13 04:01:47+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-13 04:01:47+00:00"
+  },
+  {
+    "subscription_id": "sub_2de21e9ca9",
+    "user_id": "usr_b6debb831c",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-05-06 21:34:27+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-06 21:34:27+00:00"
+  },
+  {
+    "subscription_id": "sub_c25a1870ed",
+    "user_id": "usr_6eff2d7c34",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-12-27 13:06:59+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-27 13:06:59+00:00"
+  },
+  {
+    "subscription_id": "sub_482c8cc594",
+    "user_id": "usr_b2655e879c",
+    "plan_id": "plan_enterprise",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-11-28 09:18:34+00:00",
+    "end_date": "2026-05-12 09:18:34+00:00",
+    "updated_at": "2026-05-12 09:18:34+00:00"
+  },
+  {
+    "subscription_id": "sub_17f899d66c",
+    "user_id": "usr_648c852fc5",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-05-02 12:45:44+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-02 12:45:44+00:00"
+  },
+  {
+    "subscription_id": "sub_3dd89a97da",
+    "user_id": "usr_f81d4ad5ba",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-10-10 10:26:00+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-10 10:26:00+00:00"
+  },
+  {
+    "subscription_id": "sub_9705616f35",
+    "user_id": "usr_fa1c39bf15",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-10-26 13:52:36+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-26 13:52:36+00:00"
+  },
+  {
+    "subscription_id": "sub_b0403ed3f1",
+    "user_id": "usr_ec97e701b0",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-04-03 00:46:59+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-04 00:46:59+00:00"
+  },
+  {
+    "subscription_id": "sub_eedc3fdb69",
+    "user_id": "usr_28f26fedb7",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-11-24 17:29:20+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-24 17:29:20+00:00"
+  },
+  {
+    "subscription_id": "sub_1dc0ca2b16",
+    "user_id": "usr_c1c50810c2",
+    "plan_id": "plan_pro",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-09-07 08:45:38+00:00",
+    "end_date": "2025-12-03 08:45:38+00:00",
+    "updated_at": "2025-12-03 08:45:38+00:00"
+  },
+  {
+    "subscription_id": "sub_c9c861a6c6",
+    "user_id": "usr_d035ac6ff9",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-10-02 09:39:43+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-30 09:39:43+00:00"
+  },
+  {
+    "subscription_id": "sub_6600564d33",
+    "user_id": "usr_fac7ffa870",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-05-02 00:40:16+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-14 00:40:16+00:00"
+  },
+  {
+    "subscription_id": "sub_2764f7e68a",
+    "user_id": "usr_e248d5ddf7",
+    "plan_id": "plan_starter",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-12-25 14:03:54+00:00",
+    "end_date": "2026-02-08 14:03:54+00:00",
+    "updated_at": "2026-02-08 14:03:54+00:00"
+  },
+  {
+    "subscription_id": "sub_05de6b7b46",
+    "user_id": "usr_6183958026",
+    "plan_id": "plan_starter",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-04-16 10:40:20+00:00",
+    "end_date": "2026-05-24 10:40:20+00:00",
+    "updated_at": "2026-05-24 10:40:20+00:00"
+  },
+  {
+    "subscription_id": "sub_e6aea4bf02",
+    "user_id": "usr_8ec9fd6501",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-06-28 06:18:18+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-28 06:18:18+00:00"
+  },
+  {
+    "subscription_id": "sub_b29f2d1254",
+    "user_id": "usr_ac7aba0e59",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-09-24 15:56:21+00:00",
+    "end_date": null,
+    "updated_at": "2025-09-24 15:56:21+00:00"
+  },
+  {
+    "subscription_id": "sub_1a71c268d7",
+    "user_id": "usr_a621145912",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-08-29 02:41:14+00:00",
+    "end_date": null,
+    "updated_at": "2025-08-29 02:41:14+00:00"
+  },
+  {
+    "subscription_id": "sub_3b71b93611",
+    "user_id": "usr_4d0018d8d4",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-03-25 08:42:37+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-25 08:42:37+00:00"
+  },
+  {
+    "subscription_id": "sub_6367436ec6",
+    "user_id": "usr_f6118b949d",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-05-29 12:49:33+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-29 12:49:33+00:00"
+  },
+  {
+    "subscription_id": "sub_b17ec63e7a",
+    "user_id": "usr_d66aa34cf9",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-02-26 11:01:35+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-26 11:01:35+00:00"
+  },
+  {
+    "subscription_id": "sub_c717f88180",
+    "user_id": "usr_96f541175f",
+    "plan_id": "plan_pro",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-11-18 18:15:55+00:00",
+    "end_date": "2026-01-11 18:15:55+00:00",
+    "updated_at": "2026-01-11 18:15:55+00:00"
+  },
+  {
+    "subscription_id": "sub_6142c8038f",
+    "user_id": "usr_a042f8c071",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-12-13 20:52:46+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-13 20:52:46+00:00"
+  },
+  {
+    "subscription_id": "sub_1adf622656",
+    "user_id": "usr_acf9c4748b",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-02-24 07:54:30+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-24 07:54:30+00:00"
+  },
+  {
+    "subscription_id": "sub_3334fb4ece",
+    "user_id": "usr_c3b756bb1c",
+    "plan_id": "plan_enterprise",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-03-01 09:22:43+00:00",
+    "end_date": "2026-04-25 09:22:43+00:00",
+    "updated_at": "2026-04-25 09:22:43+00:00"
+  },
+  {
+    "subscription_id": "sub_dacf98f5a1",
+    "user_id": "usr_e5926484bb",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-09-24 11:54:43+00:00",
+    "end_date": null,
+    "updated_at": "2025-09-24 11:54:43+00:00"
+  },
+  {
+    "subscription_id": "sub_92e500dae8",
+    "user_id": "usr_a34a05a852",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-02-13 09:04:03+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-13 09:04:03+00:00"
+  },
+  {
+    "subscription_id": "sub_490ac20027",
+    "user_id": "usr_7a5123d030",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-06-05 20:06:03+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-13 20:06:03+00:00"
+  },
+  {
+    "subscription_id": "sub_8dc0a614d7",
+    "user_id": "usr_b2b7b36371",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-10-28 22:01:41+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-28 22:01:41+00:00"
+  },
+  {
+    "subscription_id": "sub_b75045f5b7",
+    "user_id": "usr_87401557b9",
+    "plan_id": "plan_pro",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-12-10 05:05:41+00:00",
+    "end_date": "2026-05-07 05:05:41+00:00",
+    "updated_at": "2026-05-07 05:05:41+00:00"
+  },
+  {
+    "subscription_id": "sub_de1c939ee0",
+    "user_id": "usr_36d41e42dc",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-10-05 23:45:40+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-05 23:45:40+00:00"
+  },
+  {
+    "subscription_id": "sub_da33d01ea2",
+    "user_id": "usr_17da9900bc",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-04-10 12:10:51+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-10 12:10:51+00:00"
+  },
+  {
+    "subscription_id": "sub_fa1c2862f2",
+    "user_id": "usr_dc8d0e9890",
+    "plan_id": "plan_enterprise",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-03-02 04:28:25+00:00",
+    "end_date": "2026-08-17 04:28:25+00:00",
+    "updated_at": "2026-08-17 04:28:25+00:00"
+  },
+  {
+    "subscription_id": "sub_2c90b5feee",
+    "user_id": "usr_973023ad09",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-05-11 06:53:05+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-11 06:53:05+00:00"
+  },
+  {
+    "subscription_id": "sub_9899870718",
+    "user_id": "usr_c3215b39ac",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-05-02 10:28:37+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-02 10:28:37+00:00"
+  },
+  {
+    "subscription_id": "sub_12ac235c7b",
+    "user_id": "usr_72803c34f1",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-09-26 20:24:34+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-31 20:24:34+00:00"
+  },
+  {
+    "subscription_id": "sub_4e33bf53cc",
+    "user_id": "usr_bfcfa07c2b",
+    "plan_id": "plan_starter",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-03-02 20:04:28+00:00",
+    "end_date": "2026-04-01 20:04:28+00:00",
+    "updated_at": "2026-04-01 20:04:28+00:00"
+  },
+  {
+    "subscription_id": "sub_c21d89bf83",
+    "user_id": "usr_ae4078648a",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-10-06 10:26:10+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-17 10:26:10+00:00"
+  },
+  {
+    "subscription_id": "sub_a00ef3510d",
+    "user_id": "usr_9c718c3d47",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-04-21 05:20:12+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-21 05:20:12+00:00"
+  },
+  {
+    "subscription_id": "sub_6fff3da242",
+    "user_id": "usr_f0ad97e49c",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-08-17 16:30:19+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-17 16:30:19+00:00"
+  },
+  {
+    "subscription_id": "sub_754f691311",
+    "user_id": "usr_8bf802d020",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-03-24 08:09:37+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-24 08:09:37+00:00"
+  },
+  {
+    "subscription_id": "sub_55a1de3f3d",
+    "user_id": "usr_6487f07d2e",
+    "plan_id": "plan_pro",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-10-21 05:05:00+00:00",
+    "end_date": "2026-02-03 05:05:00+00:00",
+    "updated_at": "2026-02-03 05:05:00+00:00"
+  },
+  {
+    "subscription_id": "sub_c2ea754c7f",
+    "user_id": "usr_73c0f33a74",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-11-25 01:42:19+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-25 01:42:19+00:00"
+  },
+  {
+    "subscription_id": "sub_aae23ff0ae",
+    "user_id": "usr_145e056aec",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-12-07 16:46:51+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-07 16:46:51+00:00"
+  },
+  {
+    "subscription_id": "sub_fab8654a1f",
+    "user_id": "usr_0b247b3da4",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-12-16 08:42:38+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-16 08:42:38+00:00"
+  },
+  {
+    "subscription_id": "sub_6a494a59eb",
+    "user_id": "usr_4fe255d308",
+    "plan_id": "plan_starter",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-03-21 11:06:14+00:00",
+    "end_date": "2026-08-20 11:06:14+00:00",
+    "updated_at": "2026-08-20 11:06:14+00:00"
+  },
+  {
+    "subscription_id": "sub_fb358c7ff1",
+    "user_id": "usr_c8da0052c8",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-01-28 22:40:12+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-28 22:40:12+00:00"
+  },
+  {
+    "subscription_id": "sub_af1a66480c",
+    "user_id": "usr_e2c4982eb8",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-05-02 15:13:34+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-02 15:13:34+00:00"
+  },
+  {
+    "subscription_id": "sub_19eb1ffc6e",
+    "user_id": "usr_f30f475d8e",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-09-30 03:20:56+00:00",
+    "end_date": null,
+    "updated_at": "2025-09-30 03:20:56+00:00"
+  },
+  {
+    "subscription_id": "sub_b1f2762d27",
+    "user_id": "usr_900f759640",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-12-03 08:09:35+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-03 08:09:35+00:00"
+  },
+  {
+    "subscription_id": "sub_49c2c4cf30",
+    "user_id": "usr_b987f1b3db",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-05-28 12:54:01+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-28 12:54:01+00:00"
+  },
+  {
+    "subscription_id": "sub_04c66bd7a2",
+    "user_id": "usr_6d1a2d7b63",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-08-15 01:38:59+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-15 01:38:59+00:00"
+  },
+  {
+    "subscription_id": "sub_deb2e526da",
+    "user_id": "usr_3d78534564",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-12-16 17:11:41+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-16 17:11:41+00:00"
+  },
+  {
+    "subscription_id": "sub_7bb21798d7",
+    "user_id": "usr_d2b32c74d5",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-03-16 16:47:51+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-16 16:47:51+00:00"
+  },
+  {
+    "subscription_id": "sub_7594cf1477",
+    "user_id": "usr_7f06e07b98",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-07-26 14:46:55+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-26 14:46:55+00:00"
+  },
+  {
+    "subscription_id": "sub_9c58191e80",
+    "user_id": "usr_aeee6c71dd",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-11-29 13:47:09+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-29 13:47:09+00:00"
+  },
+  {
+    "subscription_id": "sub_0acd625c26",
+    "user_id": "usr_b1ff778ecb",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-04-07 14:32:01+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-01 14:32:01+00:00"
+  },
+  {
+    "subscription_id": "sub_78897fcd94",
+    "user_id": "usr_56c2e103fe",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-02-26 01:47:39+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-28 01:47:39+00:00"
+  },
+  {
+    "subscription_id": "sub_3753e205a5",
+    "user_id": "usr_272e1e2997",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-07-10 18:28:45+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-10 18:28:45+00:00"
+  },
+  {
+    "subscription_id": "sub_b599041554",
+    "user_id": "usr_21cafb2c50",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-07-11 20:35:23+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-11 20:35:23+00:00"
+  },
+  {
+    "subscription_id": "sub_4c8774cbd2",
+    "user_id": "usr_e0d657892a",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-11-27 17:58:46+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-27 17:58:46+00:00"
+  },
+  {
+    "subscription_id": "sub_054b268fe9",
+    "user_id": "usr_724f94e42d",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-09-04 08:56:54+00:00",
+    "end_date": null,
+    "updated_at": "2025-09-04 08:56:54+00:00"
+  },
+  {
+    "subscription_id": "sub_4e1e80313d",
+    "user_id": "usr_0267a84565",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-07-28 19:10:24+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-28 19:10:24+00:00"
+  },
+  {
+    "subscription_id": "sub_3ffcd5ebcc",
+    "user_id": "usr_48d0e848c1",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-07-26 10:39:22+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-26 10:39:22+00:00"
+  },
+  {
+    "subscription_id": "sub_aaf16aa396",
+    "user_id": "usr_e5ab35a784",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-05-11 07:53:24+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-11 07:53:24+00:00"
+  },
+  {
+    "subscription_id": "sub_e9835104cf",
+    "user_id": "usr_cb9cb968cd",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-12-03 02:54:04+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-14 02:54:04+00:00"
+  },
+  {
+    "subscription_id": "sub_358400b9d6",
+    "user_id": "usr_d919c3e09a",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-01-13 16:21:14+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-13 16:21:14+00:00"
+  },
+  {
+    "subscription_id": "sub_19d3ada9a4",
+    "user_id": "usr_395fd1949c",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-04-26 04:21:44+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-26 04:21:44+00:00"
+  },
+  {
+    "subscription_id": "sub_b5bf4fc650",
+    "user_id": "usr_2b68bb445b",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-09-05 20:48:38+00:00",
+    "end_date": null,
+    "updated_at": "2025-09-05 20:48:38+00:00"
+  },
+  {
+    "subscription_id": "sub_eb547d5764",
+    "user_id": "usr_3676379c19",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-06-07 00:32:11+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-07 00:32:11+00:00"
+  },
+  {
+    "subscription_id": "sub_1eb73f81b3",
+    "user_id": "usr_c4bfb5eaf2",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-04-18 12:15:47+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-18 12:15:47+00:00"
+  },
+  {
+    "subscription_id": "sub_28364ef593",
+    "user_id": "usr_8fdcc122a5",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-07-20 15:20:32+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-20 15:20:32+00:00"
+  },
+  {
+    "subscription_id": "sub_306bd91987",
+    "user_id": "usr_d835454d43",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-10-08 20:34:46+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-05 20:34:46+00:00"
+  },
+  {
+    "subscription_id": "sub_1b33c2db71",
+    "user_id": "usr_b31281b37a",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-11-25 00:11:42+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-25 00:11:42+00:00"
+  },
+  {
+    "subscription_id": "sub_2faad548e3",
+    "user_id": "usr_794daaadb3",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-12-28 00:21:56+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-09 00:21:56+00:00"
+  },
+  {
+    "subscription_id": "sub_b62687c046",
+    "user_id": "usr_1c5ff83462",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-11-27 18:14:06+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-13 18:14:06+00:00"
+  },
+  {
+    "subscription_id": "sub_a4e882dd7a",
+    "user_id": "usr_32626e12ad",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-04-08 02:28:32+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-08 02:28:32+00:00"
+  },
+  {
+    "subscription_id": "sub_7449369378",
+    "user_id": "usr_ca4139667a",
+    "plan_id": "plan_starter",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-02-12 12:11:47+00:00",
+    "end_date": "2026-06-30 12:11:47+00:00",
+    "updated_at": "2026-06-30 12:11:47+00:00"
+  },
+  {
+    "subscription_id": "sub_362bc4a34c",
+    "user_id": "usr_e9d2cae3f6",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-05-31 20:21:52+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-31 20:21:52+00:00"
+  },
+  {
+    "subscription_id": "sub_62322390ff",
+    "user_id": "usr_7198d4f66a",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-05-26 02:01:48+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-26 02:01:48+00:00"
+  },
+  {
+    "subscription_id": "sub_862ca7d47f",
+    "user_id": "usr_24d05dd7e8",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-04-06 17:57:46+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-06 17:57:46+00:00"
+  },
+  {
+    "subscription_id": "sub_371a8c0b9d",
+    "user_id": "usr_222931c168",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-06-26 10:09:35+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-26 10:09:35+00:00"
+  },
+  {
+    "subscription_id": "sub_c021a1f471",
+    "user_id": "usr_9513aa67a7",
+    "plan_id": "plan_enterprise",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-01-30 02:59:26+00:00",
+    "end_date": "2026-03-20 02:59:26+00:00",
+    "updated_at": "2026-03-20 02:59:26+00:00"
+  },
+  {
+    "subscription_id": "sub_e1cb674b5f",
+    "user_id": "usr_4c9e05587e",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-05-07 17:13:23+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-07 17:13:23+00:00"
+  },
+  {
+    "subscription_id": "sub_561e166870",
+    "user_id": "usr_6166b9aeda",
+    "plan_id": "plan_enterprise",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-02-06 03:20:58+00:00",
+    "end_date": "2026-06-10 03:20:58+00:00",
+    "updated_at": "2026-06-10 03:20:58+00:00"
+  },
+  {
+    "subscription_id": "sub_4a30d8a8f7",
+    "user_id": "usr_f14492efde",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-05-09 14:56:41+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-09 14:56:41+00:00"
+  },
+  {
+    "subscription_id": "sub_bcb000a991",
+    "user_id": "usr_d7f2523200",
+    "plan_id": "plan_pro",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-10-01 15:35:45+00:00",
+    "end_date": "2026-01-17 15:35:45+00:00",
+    "updated_at": "2026-01-17 15:35:45+00:00"
+  },
+  {
+    "subscription_id": "sub_380cc4af8e",
+    "user_id": "usr_d9ea4c5acd",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-06-14 13:58:05+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-14 13:58:05+00:00"
+  },
+  {
+    "subscription_id": "sub_5780b731eb",
+    "user_id": "usr_a60a9a71d1",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-05-04 21:24:00+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-04 21:24:00+00:00"
+  },
+  {
+    "subscription_id": "sub_4fb7fa38d5",
+    "user_id": "usr_976bd2eab7",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-03-30 08:27:49+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-30 08:27:49+00:00"
+  },
+  {
+    "subscription_id": "sub_515f056a40",
+    "user_id": "usr_68941dd224",
+    "plan_id": "plan_enterprise",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-11-13 23:09:08+00:00",
+    "end_date": "2026-05-05 23:09:08+00:00",
+    "updated_at": "2026-05-05 23:09:08+00:00"
+  },
+  {
+    "subscription_id": "sub_bf62a4892d",
+    "user_id": "usr_504cb74a66",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-03-30 20:19:26+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-30 20:19:26+00:00"
+  },
+  {
+    "subscription_id": "sub_5e89474dd9",
+    "user_id": "usr_23746eba09",
+    "plan_id": "plan_enterprise",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-02-10 12:04:51+00:00",
+    "end_date": "2026-05-11 12:04:51+00:00",
+    "updated_at": "2026-05-11 12:04:51+00:00"
+  },
+  {
+    "subscription_id": "sub_eb9df11c8d",
+    "user_id": "usr_0827566411",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-01-03 11:12:46+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-03 11:12:46+00:00"
+  },
+  {
+    "subscription_id": "sub_79845c5b59",
+    "user_id": "usr_1185bfc115",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-01-22 22:05:25+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-22 22:05:25+00:00"
+  },
+  {
+    "subscription_id": "sub_9302f82f43",
+    "user_id": "usr_6f8322c17d",
+    "plan_id": "plan_starter",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-12-27 20:17:26+00:00",
+    "end_date": "2026-04-21 20:17:26+00:00",
+    "updated_at": "2026-04-21 20:17:26+00:00"
+  },
+  {
+    "subscription_id": "sub_10f8879464",
+    "user_id": "usr_b3911baea1",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-11-19 18:45:21+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-19 18:45:21+00:00"
+  },
+  {
+    "subscription_id": "sub_314271b1a2",
+    "user_id": "usr_dcf8fa38d7",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-04-03 00:25:58+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-03 00:25:58+00:00"
+  },
+  {
+    "subscription_id": "sub_562104a3bf",
+    "user_id": "usr_061d23c22d",
+    "plan_id": "plan_pro",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-12-26 13:01:38+00:00",
+    "end_date": "2026-02-21 13:01:38+00:00",
+    "updated_at": "2026-02-21 13:01:38+00:00"
+  },
+  {
+    "subscription_id": "sub_0990fa47e0",
+    "user_id": "usr_a1b2170d09",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-11-24 21:50:33+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-24 21:50:33+00:00"
+  },
+  {
+    "subscription_id": "sub_9b8e66d50f",
+    "user_id": "usr_f3a8d6d0e5",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-11-16 11:10:11+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-27 11:10:11+00:00"
+  },
+  {
+    "subscription_id": "sub_4056dd9b84",
+    "user_id": "usr_12177944c7",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-08-09 05:46:49+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-09 05:46:49+00:00"
+  },
+  {
+    "subscription_id": "sub_358f7b36fd",
+    "user_id": "usr_b343158d60",
+    "plan_id": "plan_starter",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-04-13 08:44:02+00:00",
+    "end_date": "2026-07-01 08:44:02+00:00",
+    "updated_at": "2026-07-01 08:44:02+00:00"
+  },
+  {
+    "subscription_id": "sub_f096ec0b49",
+    "user_id": "usr_a5a02fbfec",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-02-12 18:04:07+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-06 18:04:07+00:00"
+  },
+  {
+    "subscription_id": "sub_08b9da1cc2",
+    "user_id": "usr_66fa30d9f0",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-12-18 00:27:34+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-18 00:27:34+00:00"
+  },
+  {
+    "subscription_id": "sub_53af65320c",
+    "user_id": "usr_048b8dc42e",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-01-12 14:51:07+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-12 14:51:07+00:00"
+  },
+  {
+    "subscription_id": "sub_3fcbfae954",
+    "user_id": "usr_7417730ec8",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-06-05 09:12:42+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-23 09:12:42+00:00"
+  },
+  {
+    "subscription_id": "sub_dcbabe97d9",
+    "user_id": "usr_ad60debef8",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-03-05 03:03:02+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-05 03:03:02+00:00"
+  },
+  {
+    "subscription_id": "sub_67ff5fb6d3",
+    "user_id": "usr_eb8b11469a",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-05-24 05:28:51+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-24 05:28:51+00:00"
+  },
+  {
+    "subscription_id": "sub_90f44bc6a7",
+    "user_id": "usr_9ef7ed5353",
+    "plan_id": "plan_starter",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2026-01-28 03:58:31+00:00",
+    "end_date": "2026-06-18 03:58:31+00:00",
+    "updated_at": "2026-06-18 03:58:31+00:00"
+  },
+  {
+    "subscription_id": "sub_2e2e84664b",
+    "user_id": "usr_3c80005f96",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-12-10 18:24:37+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-10 18:24:37+00:00"
+  },
+  {
+    "subscription_id": "sub_c696f98b1e",
+    "user_id": "usr_7bc2764696",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-08-13 10:39:53+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-13 10:39:53+00:00"
+  },
+  {
+    "subscription_id": "sub_f61e62f7c8",
+    "user_id": "usr_ca6140d862",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-06-25 20:47:34+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-25 20:47:34+00:00"
+  },
+  {
+    "subscription_id": "sub_fb99987e59",
+    "user_id": "usr_4c023f8564",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-10-31 10:08:26+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-08 10:08:26+00:00"
+  },
+  {
+    "subscription_id": "sub_160f45a6ac",
+    "user_id": "usr_469c4cb1fc",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-09-21 09:11:57+00:00",
+    "end_date": null,
+    "updated_at": "2025-09-21 09:11:57+00:00"
+  },
+  {
+    "subscription_id": "sub_fc4d97d602",
+    "user_id": "usr_6dbaa9da07",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-06-16 00:28:23+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-16 00:28:23+00:00"
+  },
+  {
+    "subscription_id": "sub_dc2c01133d",
+    "user_id": "usr_696ea69627",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-02-08 09:22:49+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-08 09:22:49+00:00"
+  },
+  {
+    "subscription_id": "sub_7bced1bf85",
+    "user_id": "usr_abff824c48",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-06-22 19:31:02+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-22 19:31:02+00:00"
+  },
+  {
+    "subscription_id": "sub_eea10bef15",
+    "user_id": "usr_208d24a29c",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-05-12 20:14:47+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-12 20:14:47+00:00"
+  },
+  {
+    "subscription_id": "sub_d0cf30778d",
+    "user_id": "usr_cb1500fe4f",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-06-29 14:14:45+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-29 14:14:45+00:00"
+  },
+  {
+    "subscription_id": "sub_49af8998ee",
+    "user_id": "usr_3e361f6e7d",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-07-16 22:15:21+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-16 22:15:21+00:00"
+  },
+  {
+    "subscription_id": "sub_cf04ef565e",
+    "user_id": "usr_836ca77f52",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-02-08 07:30:30+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-08 07:30:30+00:00"
+  },
+  {
+    "subscription_id": "sub_48ed946eed",
+    "user_id": "usr_0b7c777808",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-01-23 09:11:14+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-30 09:11:14+00:00"
+  },
+  {
+    "subscription_id": "sub_2f6b496f26",
+    "user_id": "usr_3a1678935d",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-07-14 07:39:30+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-14 07:39:30+00:00"
+  },
+  {
+    "subscription_id": "sub_59b8043a33",
+    "user_id": "usr_ea6158cf99",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-05-23 10:02:32+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-23 10:02:32+00:00"
+  },
+  {
+    "subscription_id": "sub_13afec2005",
+    "user_id": "usr_e0ee21e81e",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-03-23 13:11:41+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-23 13:11:41+00:00"
+  },
+  {
+    "subscription_id": "sub_3f226835a8",
+    "user_id": "usr_6db557c58b",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-04-27 13:25:49+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-27 13:25:49+00:00"
+  },
+  {
+    "subscription_id": "sub_f57cfa0e5b",
+    "user_id": "usr_c9017355e5",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-10-17 04:12:06+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-17 04:12:06+00:00"
+  },
+  {
+    "subscription_id": "sub_6edd50bf59",
+    "user_id": "usr_b81ea74cc0",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-01-09 11:02:21+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-09 11:02:21+00:00"
+  },
+  {
+    "subscription_id": "sub_021d16444e",
+    "user_id": "usr_4b9860214d",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-01-19 15:57:49+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-31 15:57:49+00:00"
+  },
+  {
+    "subscription_id": "sub_39e457673d",
+    "user_id": "usr_62e79c814f",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-10-01 16:11:09+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-01 16:11:09+00:00"
+  },
+  {
+    "subscription_id": "sub_e86dea9bc1",
+    "user_id": "usr_1d32aad54a",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-05-19 11:27:58+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-19 11:27:58+00:00"
+  },
+  {
+    "subscription_id": "sub_45d00a1255",
+    "user_id": "usr_39f35e1435",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-09-05 18:40:57+00:00",
+    "end_date": null,
+    "updated_at": "2025-09-05 18:40:57+00:00"
+  },
+  {
+    "subscription_id": "sub_35161140be",
+    "user_id": "usr_8d369c4470",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-03-21 07:22:53+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-04 07:22:53+00:00"
+  },
+  {
+    "subscription_id": "sub_9155a8cb74",
+    "user_id": "usr_83c9f932fd",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-07-24 15:47:36+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-24 15:47:36+00:00"
+  },
+  {
+    "subscription_id": "sub_7bf66e5f0a",
+    "user_id": "usr_1b2a9e2e0f",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-11-02 23:13:52+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-02 23:13:52+00:00"
+  },
+  {
+    "subscription_id": "sub_1409404a64",
+    "user_id": "usr_7b01eef3e2",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-09-22 01:37:17+00:00",
+    "end_date": null,
+    "updated_at": "2025-09-22 01:37:17+00:00"
+  },
+  {
+    "subscription_id": "sub_4600a6d281",
+    "user_id": "usr_8071e2da38",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-05-06 02:10:56+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-06 02:10:56+00:00"
+  },
+  {
+    "subscription_id": "sub_ac4f1fad4b",
+    "user_id": "usr_5548d864b1",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-08-11 10:45:49+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-11 10:45:49+00:00"
+  },
+  {
+    "subscription_id": "sub_89e44159f2",
+    "user_id": "usr_bc4116268c",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-01-27 04:07:20+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-27 04:07:20+00:00"
+  },
+  {
+    "subscription_id": "sub_122516927e",
+    "user_id": "usr_2e7e310814",
+    "plan_id": "plan_starter",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-11-22 01:36:17+00:00",
+    "end_date": "2026-02-22 01:36:17+00:00",
+    "updated_at": "2026-02-22 01:36:17+00:00"
+  },
+  {
+    "subscription_id": "sub_33d4399c1b",
+    "user_id": "usr_1e613b2ae0",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-01-13 21:23:04+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-13 21:23:04+00:00"
+  },
+  {
+    "subscription_id": "sub_e3072b395a",
+    "user_id": "usr_e49300867d",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-10-05 11:23:10+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-05 11:23:10+00:00"
+  },
+  {
+    "subscription_id": "sub_f061431f58",
+    "user_id": "usr_a22162e0f2",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-11-13 17:54:35+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-13 17:54:35+00:00"
+  },
+  {
+    "subscription_id": "sub_a402b448ba",
+    "user_id": "usr_d4e4f53544",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-10-28 11:14:33+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-28 11:14:33+00:00"
+  },
+  {
+    "subscription_id": "sub_55beab40d6",
+    "user_id": "usr_8bdf47087c",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-03-24 00:18:48+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-24 00:18:48+00:00"
+  },
+  {
+    "subscription_id": "sub_1ae18bde45",
+    "user_id": "usr_cae933a64b",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-11-22 08:30:35+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-22 08:30:35+00:00"
+  },
+  {
+    "subscription_id": "sub_7ff3017657",
+    "user_id": "usr_84d83eb0d5",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-10-11 19:31:26+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-11 19:31:26+00:00"
+  },
+  {
+    "subscription_id": "sub_383d321c7d",
+    "user_id": "usr_8eb5e38b8b",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-04-02 16:25:47+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-02 16:25:47+00:00"
+  },
+  {
+    "subscription_id": "sub_63f578a01e",
+    "user_id": "usr_5a12a90bef",
+    "plan_id": "plan_starter",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-10-11 06:08:01+00:00",
+    "end_date": "2026-03-22 06:08:01+00:00",
+    "updated_at": "2026-03-22 06:08:01+00:00"
+  },
+  {
+    "subscription_id": "sub_b60ffcace3",
+    "user_id": "usr_570140fc86",
+    "plan_id": "plan_pro",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-10-20 20:10:34+00:00",
+    "end_date": "2026-01-21 20:10:34+00:00",
+    "updated_at": "2026-01-21 20:10:34+00:00"
+  },
+  {
+    "subscription_id": "sub_d7c90de011",
+    "user_id": "usr_7c4fce45cf",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-04-26 01:07:46+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-26 01:07:46+00:00"
+  },
+  {
+    "subscription_id": "sub_056a380082",
+    "user_id": "usr_21df9c2159",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-04-09 06:01:23+00:00",
+    "end_date": null,
+    "updated_at": "2026-04-09 06:01:23+00:00"
+  },
+  {
+    "subscription_id": "sub_d1fe47f301",
+    "user_id": "usr_c0b7e1038b",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-07-08 21:43:41+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-08 21:43:41+00:00"
+  },
+  {
+    "subscription_id": "sub_b3c66c1076",
+    "user_id": "usr_9f64efc5fc",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-01-31 04:50:19+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-31 04:50:19+00:00"
+  },
+  {
+    "subscription_id": "sub_0767774294",
+    "user_id": "usr_9d5c6459de",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-05-15 10:32:45+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-15 10:32:45+00:00"
+  },
+  {
+    "subscription_id": "sub_842a977cf3",
+    "user_id": "usr_4f9e18536e",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-02-26 11:30:58+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-26 11:30:58+00:00"
+  },
+  {
+    "subscription_id": "sub_7f60672972",
+    "user_id": "usr_43d5b20332",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-07-22 16:59:42+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-22 16:59:42+00:00"
+  },
+  {
+    "subscription_id": "sub_c72eb3978a",
+    "user_id": "usr_b5d07965c8",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-02-13 00:30:25+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-13 00:30:25+00:00"
+  },
+  {
+    "subscription_id": "sub_ee66bda974",
+    "user_id": "usr_fd6d2818f1",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-07-04 08:07:54+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-04 08:07:54+00:00"
+  },
+  {
+    "subscription_id": "sub_bbccbd7787",
+    "user_id": "usr_8f32b9c078",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-07-29 19:32:51+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-29 19:32:51+00:00"
+  },
+  {
+    "subscription_id": "sub_39d9fecefb",
+    "user_id": "usr_7c8fcb8ec7",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-01-06 11:11:21+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-06 11:11:21+00:00"
+  },
+  {
+    "subscription_id": "sub_789333ca02",
+    "user_id": "usr_e8a0cb21cb",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-02-05 18:30:23+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-05 18:30:23+00:00"
+  },
+  {
+    "subscription_id": "sub_3f30d35009",
+    "user_id": "usr_74d3ebe5b2",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-03-28 14:28:52+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-21 14:28:52+00:00"
+  },
+  {
+    "subscription_id": "sub_d8b5f1e7ce",
+    "user_id": "usr_d5a45aa078",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-04-21 11:00:04+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-09 11:00:04+00:00"
+  },
+  {
+    "subscription_id": "sub_98551452dc",
+    "user_id": "usr_42ae207c99",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-10-17 10:38:16+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-08 10:38:16+00:00"
+  },
+  {
+    "subscription_id": "sub_b5cf8f690d",
+    "user_id": "usr_a58044b55a",
+    "plan_id": "plan_starter",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-12-29 18:07:58+00:00",
+    "end_date": "2026-03-28 18:07:58+00:00",
+    "updated_at": "2026-03-28 18:07:58+00:00"
+  },
+  {
+    "subscription_id": "sub_6c48b19a7d",
+    "user_id": "usr_3a982f063b",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-01-22 00:34:14+00:00",
+    "end_date": null,
+    "updated_at": "2026-01-22 00:34:14+00:00"
+  },
+  {
+    "subscription_id": "sub_b185ce8c3a",
+    "user_id": "usr_6eac858c57",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-07-05 05:17:55+00:00",
+    "end_date": null,
+    "updated_at": "2026-07-05 05:17:55+00:00"
+  },
+  {
+    "subscription_id": "sub_011d21d15c",
+    "user_id": "usr_71cbbb2e62",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-04-23 19:06:05+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-05 19:06:05+00:00"
+  },
+  {
+    "subscription_id": "sub_a101ad99c0",
+    "user_id": "usr_c426e2cc5d",
+    "plan_id": "plan_pro",
+    "status": "canceled",
+    "mrr": "0.00",
+    "start_date": "2025-10-27 15:15:22+00:00",
+    "end_date": "2026-03-13 15:15:22+00:00",
+    "updated_at": "2026-03-13 15:15:22+00:00"
+  },
+  {
+    "subscription_id": "sub_c726199ff3",
+    "user_id": "usr_3aba629f35",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-10-04 02:16:08+00:00",
+    "end_date": null,
+    "updated_at": "2025-10-04 02:16:08+00:00"
+  },
+  {
+    "subscription_id": "sub_06aecd2446",
+    "user_id": "usr_34366ef361",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-06-19 09:14:02+00:00",
+    "end_date": null,
+    "updated_at": "2026-06-19 09:14:02+00:00"
+  },
+  {
+    "subscription_id": "sub_8ea3bbab23",
+    "user_id": "usr_defcf4a785",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2025-11-10 22:32:00+00:00",
+    "end_date": null,
+    "updated_at": "2025-11-10 22:32:00+00:00"
+  },
+  {
+    "subscription_id": "sub_1301722558",
+    "user_id": "usr_7cf3fe9922",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-03-17 11:04:22+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-17 11:04:22+00:00"
+  },
+  {
+    "subscription_id": "sub_09a7a33aa4",
+    "user_id": "usr_19c2f49698",
+    "plan_id": "plan_starter",
+    "status": "active",
+    "mrr": "29.00",
+    "start_date": "2026-03-27 03:42:47+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-27 03:42:47+00:00"
+  },
+  {
+    "subscription_id": "sub_b5bf8db523",
+    "user_id": "usr_10533db7d2",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2025-12-23 13:00:09+00:00",
+    "end_date": null,
+    "updated_at": "2025-12-23 13:00:09+00:00"
+  },
+  {
+    "subscription_id": "sub_39ac4efbc5",
+    "user_id": "usr_f07cea32b5",
+    "plan_id": "plan_pro",
+    "status": "active",
+    "mrr": "99.00",
+    "start_date": "2026-03-21 08:52:28+00:00",
+    "end_date": null,
+    "updated_at": "2026-03-21 08:52:28+00:00"
+  },
+  {
+    "subscription_id": "sub_a55a0763d3",
+    "user_id": "usr_c5139be289",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-05-26 18:14:52+00:00",
+    "end_date": null,
+    "updated_at": "2026-05-26 18:14:52+00:00"
+  },
+  {
+    "subscription_id": "sub_65110f667a",
+    "user_id": "usr_e5216dec4d",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2026-08-19 18:22:55+00:00",
+    "end_date": null,
+    "updated_at": "2026-08-19 18:22:55+00:00"
+  },
+  {
+    "subscription_id": "sub_a71b683bc4",
+    "user_id": "usr_3d82ac7362",
+    "plan_id": "plan_enterprise",
+    "status": "active",
+    "mrr": "299.00",
+    "start_date": "2025-11-18 01:22:50+00:00",
+    "end_date": null,
+    "updated_at": "2026-02-26 01:22:50+00:00"
+  }
+]
