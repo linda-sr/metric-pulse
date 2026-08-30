@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "SCD Type 2 dimension tracking each customer's plan/status history over time. One row per distinct state a customer has held; exactly one row per user has is_current = true."
+    columns:
+      - name: customer_key
+        description: "Surrogate key, unique per historical state row."
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        description: "Natural key referencing the customer. Not unique in this table — repeats once per historical state."
+        tests:
+          - not_null
+      - name: valid_from
+        description: "Date this state became active."
+      - name: valid_to
+        description: "Date this state ended. NULL means this is the customer's current state."
+      - name: is_current
+        description: "True if this row represents the customer's present state."
+
+  - name: fact_mrr_movements
+    description: "One row per revenue-impacting subscription lifecycle event, classified into New/Expansion/Contraction/Churn/Resurrection with signed MRR delta."
+    columns:
+      - name: movement_type
+        description: "Classification of this event's MRR impact."
+        tests:
+          - accepted_values:
+              values: ['new', 'expansion', 'contraction', 'churn', 'resurrection']
+      - name: mrr_delta
+        description: "Signed dollar impact on MRR. Positive for New/Expansion/Resurrection, negative for Contraction/Churn."
+
+  - name: fact_cohorts
+    description: "Monthly signup cohorts with retention percentage at each month-since-signup offset (0-12), based on session activity."
+    columns:
+      - name: cohort_month
+        description: "The calendar month a user signed up in."
+      - name: months_since_signup
+        description: "Integer offset from cohort_month; 0 = signup month itself."
+      - name: retention_pct
+        description: "Percentage of the cohort active in this offset month."
+        tests:
+          - not_null

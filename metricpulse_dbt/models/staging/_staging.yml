@@ -1,0 +1,65 @@
+version: 2
+
+sources:
+  - name: raw_staging
+    schema: raw_staging
+    tables:
+      - name: plans
+      - name: users
+      - name: subscriptions
+      - name: clickstream
+
+models:
+  - name: stg_users
+    columns:
+      - name: user_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_plans
+    columns:
+      - name: plan_id
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_subscriptions
+    columns:
+      - name: subscription_id
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_users')
+              field: user_id
+      - name: plan_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_plans')
+              field: plan_id
+      - name: event_type
+        tests:
+          - accepted_values:
+              values: ['new', 'upgrade', 'downgrade', 'churn', 'reactivation']
+
+  - name: stg_clickstream
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+      - name: user_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_users')
+              field: user_id
+      - name: event_type
+        tests:
+          - accepted_values:
+              values: ['page_view', 'feature_click', 'session_start']

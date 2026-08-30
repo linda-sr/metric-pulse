@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: int_subscription_history
+    description: "One row per subscription lifecycle event, joined to plan info, with prior state (plan/price/status) attached via LAG for change detection."
+
+  - name: int_user_sessions
+    description: "Clickstream events collapsed to one row per session, with duration and event-type counts."

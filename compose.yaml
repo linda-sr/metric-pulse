@@ -1,11 +1,10 @@
-version: '3.8'
+version: "3.9"
 
 services:
-  # 1. PostgreSQL OLTP (Simulated Application Database)
   postgres_oltp:
     image: postgres:15-alpine
     container_name: postgres_oltp
-    restart: always
+    restart: unless-stopped
     environment:
       POSTGRES_USER: oltp_user
       POSTGRES_PASSWORD: oltp_password
@@ -15,30 +14,29 @@ services:
     volumes:
       - oltp_data:/var/lib/postgresql/data
 
-  # 2. MongoDB Telemetry (Simulated Clickstream/Events Database)
-  mongodb_telemetry:
+  mongo_telemetry:
     image: mongo:latest
-    container_name: mongodb_telemetry
-    restart: always
+    container_name: metricpulse_mongo
+    restart: unless-stopped
     environment:
       MONGO_INITDB_ROOT_USERNAME: mongo_user
       MONGO_INITDB_ROOT_PASSWORD: mongo_password
+      MONGO_INITDB_DATABASE: metricpulse_telemetry
     ports:
       - "27017:27017"
     volumes:
       - mongo_data:/data/db
 
-  # 3. PostgreSQL Analytical Warehouse (Destination for ELT & dbt)
   postgres_warehouse:
     image: postgres:15-alpine
     container_name: postgres_warehouse
-    restart: always
+    restart: unless-stopped
     environment:
       POSTGRES_USER: warehouse_user
       POSTGRES_PASSWORD: warehouse_password
       POSTGRES_DB: saas_warehouse
     ports:
-      - "5433:5432" # Mapped to local port 5433 to avoid port conflicts
+      - "5433:5432"
     volumes:
       - warehouse_data:/var/lib/postgresql/data
 
