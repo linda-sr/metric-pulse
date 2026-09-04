@@ -14,14 +14,14 @@ def create_raw_schema(cur):
     cur.execute("""
         CREATE SCHEMA IF NOT EXISTS raw_staging;
 
-        DROP TABLE IF EXISTS raw_staging.plans;
+        DROP TABLE IF EXISTS raw_staging.plans CASCADE;
         CREATE TABLE raw_staging.plans (
             plan_id INT,
             plan_name TEXT,
             monthly_price NUMERIC
         );
 
-        DROP TABLE IF EXISTS raw_staging.users;
+        DROP TABLE IF EXISTS raw_staging.users CASCADE;
         CREATE TABLE raw_staging.users (
             user_id INT,
             email TEXT,
@@ -29,7 +29,7 @@ def create_raw_schema(cur):
             country TEXT
         );
 
-        DROP TABLE IF EXISTS raw_staging.subscriptions;
+        DROP TABLE IF EXISTS raw_staging.subscriptions CASCADE;
         CREATE TABLE raw_staging.subscriptions (
             subscription_id INT,
             user_id INT,
@@ -41,7 +41,7 @@ def create_raw_schema(cur):
             event_date DATE
         );
 
-        DROP TABLE IF EXISTS raw_staging.clickstream;
+        DROP TABLE IF EXISTS raw_staging.clickstream CASCADE;
         CREATE TABLE raw_staging.clickstream (
             event_id TEXT,
             user_id INT,
@@ -52,7 +52,6 @@ def create_raw_schema(cur):
             event_timestamp TIMESTAMP
         );
     """)
-
 
 def load_plans(cur, plans):
     rows = [(p.plan_id, p.plan_name, p.monthly_price) for p in plans]
