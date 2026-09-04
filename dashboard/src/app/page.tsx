@@ -3,6 +3,7 @@ import MRRWaterfallSection from '@/components/MRRWaterfallSection';
 import CohortHeatmapSection from '@/components/CohortHeatmapSection';
 import Link from 'next/link';
 import { ErrorState } from '@/components/ErrorState';
+import { getKPIs } from '@/lib/getKpis';
 
 interface KPIData {
   active_mrr: number;
@@ -12,18 +13,18 @@ interface KPIData {
   latest_month: string | null;
 }
 
-async function getKPIs(): Promise<{ data: KPIData | null; error: string | null }> {
-  try {
-    const res = await fetch('http://localhost:3000/api/kpis', { cache: 'no-store' });
-    const json = await res.json();
-    if (!res.ok || json.error) {
-      return { data: null, error: json.error || 'Failed to load KPI data' };
-    }
-    return { data: json.data, error: null };
-  } catch (e) {
-    return { data: null, error: 'Failed to connect to the API' };
-  }
-}
+// async function getKPIs(): Promise<{ data: KPIData | null; error: string | null }> {
+//   try {
+//     const res = await fetch('http://localhost:3000/api/kpis', { cache: 'no-store' });
+//     const json = await res.json();
+//     if (!res.ok || json.error) {
+//       return { data: null, error: json.error || 'Failed to load KPI data' };
+//     }
+//     return { data: json.data, error: null };
+//   } catch (e) {
+//     return { data: null, error: 'Failed to connect to the API' };
+//   }
+// }
 
 export default async function DashboardPage() {
   const { data: kpis, error } = await getKPIs();
