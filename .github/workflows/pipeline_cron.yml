@@ -1,0 +1,86 @@
+name: MetricPulse Daily Pipeline
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # 06:00 UTC daily
+  workflow_dispatch: {}   # allows manually triggering from the GitHub UI
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres_oltp:
+        image: postgres:15-alpine
+        env:
+          POSTGRES_USER: oltp_user
+          POSTGRES_PASSWORD: oltp_password
+          POSTGRES_DB: saas_oltp
+        ports:
+          - 5431:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+      mongo_telemetry:
+        image: mongo:7
+        env:
+          MONGO_INITDB_ROOT_USERNAME: mongo_user
+          MONGO_INITDB_ROOT_PASSWORD: mongo_password
+        ports:
+          - 27017:27017
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install generator dependencies
+        run: pip install -r data_generator/requirements.txt
+
+      - name: Generate synthetic OLTP data
+        working-directory: data_generator
+        run: python generate_oltp.py
+
+      - name: Generate synthetic clickstream data
+        working-directory: data_generator
+        run: python generate_clickstream.py
+
+      - name: Install pipeline dependencies
+        run: pip install -r data_pipeline/requirements.txt
+
+      - name: Run ELT pipeline into Neon
+        working-directory: data_pipeline
+        env:
+          TARGET: cloud
+          CLOUD_WAREHOUSE_URL: ${{ secrets.CLOUD_WAREHOUSE_URL }}
+        run: python run_pipeline.py --stage full
+
+      - name: Install dbt
+        run: pip install dbt-core dbt-postgres
+
+      - name: dbt run (cloud)
+        working-directory: metricpulse_dbt
+        env:
+          DBT_HOST: ${{ secrets.DBT_HOST }}
+          DBT_PORT: ${{ secrets.DBT_PORT }}
+          DBT_USER: ${{ secrets.DBT_USER }}
+          DBT_PASSWORD: ${{ secrets.DBT_PASSWORD }}
+          DBT_DBNAME: ${{ secrets.DBT_DBNAME }}
+        run: dbt run --target cloud --profiles-dir ./profiles
+
+      - name: dbt test (cloud)
+        working-directory: metricpulse_dbt
+        env:
+          DBT_HOST: ${{ secrets.DBT_HOST }}
+          DBT_PORT: ${{ secrets.DBT_PORT }}
+          DBT_USER: ${{ secrets.DBT_USER }}
+          DBT_PASSWORD: ${{ secrets.DBT_PASSWORD }}
+          DBT_DBNAME: ${{ secrets.DBT_DBNAME }}
+        run: dbt test --target cloud --profiles-dir ./profiles
