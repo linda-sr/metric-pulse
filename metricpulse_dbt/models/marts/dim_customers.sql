@@ -19,7 +19,7 @@ with_valid_to as (
         u.email,
         u.country,
         u.signup_date,
-
+        -- Sample - Git pull requiest trial
         -- valid_to = the date the NEXT event for this user occurred.
         -- If there is no next event, this row represents their current state (valid_to = NULL).
         lead(sh.event_date) over (
