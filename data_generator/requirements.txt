@@ -1,0 +1,4 @@
+faker
+pydantic
+psycopg2-binary
+pymongo
