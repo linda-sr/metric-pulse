@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-import { readFile } from 'fs/promises';
 import path from 'path';
 import pool from '@/lib/db';
 
@@ -11,35 +10,20 @@ interface DbtTestResult {
 }
 
 async function getDbtTestResults() {
-  const dbtProjectPath = process.env.DBT_PROJECT_PATH;
-  if (!dbtProjectPath) {
-    throw new Error('DBT_PROJECT_PATH environment variable is not set');
-  }
-
-  const runResultsPath = path.join(dbtProjectPath, 'target', 'run_results.json');
-  const raw = await readFile(runResultsPath, 'utf-8');
-  const parsed = JSON.parse(raw);
-
-  // run_results.json contains an entry for every node dbt executed —
-  // both models (materializations) and tests. We only care about tests here.
-  const testResults: DbtTestResult[] = parsed.results
-    .filter((r: any) => r.unique_id.startsWith('test.'))
-    .map((r: any) => ({
-      unique_id: r.unique_id,
-      status: r.status,
-      execution_time: r.execution_time,
-      message: r.message ?? null,
-    }));
-
-  const passed = testResults.filter((t) => t.status === 'pass').length;
-  const failed = testResults.filter((t) => t.status !== 'pass').length;
-
+  const result = await pool.query(`
+    SELECT run_at, total_tests, passed, failed
+    FROM public.pipeline_health_log
+    ORDER BY run_at DESC
+    LIMIT 1
+  `);
+  const row = result.rows[0];
+  if (!row) throw new Error("No pipeline health data logged yet");
   return {
-    generated_at: parsed.metadata?.generated_at ?? null,
-    total_tests: testResults.length,
-    passed,
-    failed,
-    failing_tests: testResults.filter((t) => t.status !== 'pass'),
+    generated_at: row.run_at,
+    total_tests: row.total_tests,
+    passed: row.passed,
+    failed: row.failed,
+    failing_tests: [], // detailed per-test failures aren't stored in this summary table
   };
 }
 

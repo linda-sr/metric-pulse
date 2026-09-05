@@ -88,3 +88,9 @@ jobs:
           DBT_PASSWORD: ${{ secrets.DBT_PASSWORD }}
           DBT_DBNAME: ${{ secrets.DBT_DBNAME }}
         run: dbt test --target cloud --profiles-dir ./profiles
+
+      - name: Log pipeline health to Neon
+        working-directory: data_pipeline
+        env:
+          CLOUD_WAREHOUSE_URL: ${{ secrets.CLOUD_WAREHOUSE_URL }}
+        run: python log_health.py
