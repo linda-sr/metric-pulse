@@ -3,7 +3,7 @@ import json
 import psycopg2
 from psycopg2.extras import execute_values
 
-from config import PG_WAREHOUSE_CONFIG, CLOUD_WAREHOUSE_URL, TARGET
+from config import PG_WAREHOUSE_CONFIG, CLOUD_WAREHOUSE_URL, CI_WAREHOUSE_URL, TARGET
 from extract import run_extraction
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -16,9 +16,13 @@ def get_warehouse_connection():
             raise RuntimeError("TARGET=cloud but CLOUD_WAREHOUSE_URL is not set in .env")
         logger.info("Connecting to CLOUD warehouse (Neon)")
         return psycopg2.connect(CLOUD_WAREHOUSE_URL)
+    if TARGET == "ci":
+        if not CI_WAREHOUSE_URL:
+            raise RuntimeError("TARGET=ci but CI_WAREHOUSE_URL is not set")
+        logger.info("Connecting to CI warehouse (ephemeral)")
+        return psycopg2.connect(CI_WAREHOUSE_URL)
     logger.info("Connecting to LOCAL warehouse")
     return psycopg2.connect(**PG_WAREHOUSE_CONFIG)
-
 
 def create_raw_schema(cur):
     cur.execute("""

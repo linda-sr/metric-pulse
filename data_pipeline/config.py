@@ -24,3 +24,4 @@ TARGET = os.getenv("TARGET", "local")
 
 MONGO_URI = "mongodb://mongo_user:mongo_password@localhost:27017/"
 MONGO_DB = "metricpulse_telemetry"
+CI_WAREHOUSE_URL = os.getenv("CI_WAREHOUSE_URL")
