@@ -65,6 +65,10 @@ jobs:
       - name: Install dbt
         run: pip install dbt-core dbt-postgres
 
+      - name: Install dbt packages
+        working-directory: metricpulse_dbt
+        run: dbt deps
+
       - name: dbt run (cloud)
         working-directory: metricpulse_dbt
         env:
