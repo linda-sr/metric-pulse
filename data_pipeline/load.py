@@ -3,11 +3,21 @@ import json
 import psycopg2
 from psycopg2.extras import execute_values
 
-from config import PG_WAREHOUSE_CONFIG
+from config import PG_WAREHOUSE_CONFIG, CLOUD_WAREHOUSE_URL, TARGET
 from extract import run_extraction
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("load")
+
+
+def get_warehouse_connection():
+    if TARGET == "cloud":
+        if not CLOUD_WAREHOUSE_URL:
+            raise RuntimeError("TARGET=cloud but CLOUD_WAREHOUSE_URL is not set in .env")
+        logger.info("Connecting to CLOUD warehouse (Neon)")
+        return psycopg2.connect(CLOUD_WAREHOUSE_URL)
+    logger.info("Connecting to LOCAL warehouse")
+    return psycopg2.connect(**PG_WAREHOUSE_CONFIG)
 
 
 def create_raw_schema(cur):
@@ -117,7 +127,8 @@ def run_load():
 
     conn = None
     try:
-        conn = psycopg2.connect(**PG_WAREHOUSE_CONFIG)
+        # conn = psycopg2.connect(**PG_WAREHOUSE_CONFIG)
+        conn = get_warehouse_connection()
         conn.autocommit = False  # switch to explicit transaction control
         cur = conn.cursor()
 
@@ -150,36 +161,6 @@ def run_load():
     finally:
         if conn:
             conn.close()
-def run_load1():
-    logger.info("Running extraction...")
-    extracted = run_extraction()
-
-    conn = psycopg2.connect(**PG_WAREHOUSE_CONFIG)
-    conn.autocommit = True
-    cur = conn.cursor()
-
-    logger.info("Creating raw_staging schema...")
-    create_raw_schema(cur)
-
-    logger.info("Loading plans...")
-    load_plans(cur, extracted["plans"])
-
-    logger.info("Loading users...")
-    load_users(cur, extracted["users"])
-
-    logger.info("Loading subscriptions...")
-    load_subscriptions(cur, extracted["subscriptions"])
-
-    logger.info("Loading clickstream...")
-    load_clickstream(cur, extracted["clickstream"])
-
-    counts = verify_counts(cur)
-    logger.info(f"Row counts in raw_staging: {json.dumps(counts, indent=2)}")
-
-    cur.close()
-    conn.close()
-    return counts
-
 
 if __name__ == "__main__":
     run_load()
