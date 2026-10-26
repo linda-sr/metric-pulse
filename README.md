@@ -1,3 +1,3 @@
-Metric Pulse: SaaS Revenue & Usage Analytics Platform
+# Metric Pulse: SaaS Revenue & Usage Analytics Platform
 
 MetricPulse is a working analytics dashboard, built from scratch, that shows a software company how healthy its subscription business is — how much money it's making, whether customers are staying or leaving, and whether the underlying data system that feeds all of this is itself running correctly.
